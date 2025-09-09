@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "course": "Técnico Múltimédia",
+      "year": 2025,
+      "nrOfStudents": 16,
+      "responsible": "Cristina Moura",
+      "city": "São João da Madeira"
+    },
+    {
+      "course": "Web Developer&Mobile",
+      "year": 2024,
+      "nrOfStudents": 18,
+      "responsible": "Dra Anabela",
+      "city": "Porto"
+    },
+    {
+      "course": "Front End Developer",
+      "year": 2024,
+      "nrOfStudents": 16,
+      "responsible": "António",
+      "city": "São João da Madeira"
+    },
+    {
+      "course": "Software Developer",
+      "year": 2024,
+      "nrOfStudents": 20,
+      "responsible": "Bruno Santos",
+      "city": "Porto"
+    },
+    {
+      "course": "UI/ UX Developer",
+      "year": 2024,
+      "nrOfStudents": 18,
+      "responsible": "Rui Diniz",
+      "city": "Leça da Palmeira"
+    }
+  ]
+}
