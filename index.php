@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="js/script.js" defer></script>
+
+    <?php
+      include('php/phpCode.php')
+    ?>
   </head>
   <body>
     <h3>Apis</h3>
@@ -14,7 +18,10 @@
     <button id="weather-btn">☁️</button>
     <h4>Sistema de navegação na minha app</h4>
     <ul>
-      <li><a href="phpCode.php">Página de PHP</a></li>
+      <li><a href="pages/presentation.php">Página de Apresentação</a></li>
     </ul>
+
+
+    <h5>A minha primeira variável de php é <?=$helloVar?></h5>
   </body>
 </html>
