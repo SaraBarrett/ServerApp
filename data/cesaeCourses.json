@@ -1,6 +1,7 @@
 {
   "data": [
     {
+      "id": 1,
       "course": "Técnico Múltimédia",
       "year": 2025,
       "nrOfStudents": 16,
@@ -8,6 +9,7 @@
       "city": "São João da Madeira"
     },
     {
+      "id": 2,
       "course": "Web Developer&Mobile",
       "year": 2024,
       "nrOfStudents": 18,
@@ -15,6 +17,7 @@
       "city": "Porto"
     },
     {
+      "id": 3,
       "course": "Front End Developer",
       "year": 2024,
       "nrOfStudents": 16,
@@ -22,6 +25,7 @@
       "city": "São João da Madeira"
     },
     {
+      "id": 4,
       "course": "Software Developer",
       "year": 2024,
       "nrOfStudents": 20,
@@ -29,6 +33,7 @@
       "city": "Porto"
     },
     {
+      "id": 5,
       "course": "UI/ UX Developer",
       "year": 2024,
       "nrOfStudents": 18,

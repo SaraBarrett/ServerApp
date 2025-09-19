@@ -19,6 +19,7 @@
     <h4>Sistema de navegação na minha app</h4>
     <ul>
       <li><a href="pages/presentation.php">Página de Apresentação</a></li>
+        <li><a href="pages/test_form.php">Página de Formulário</a></li>
     </ul>
 
 

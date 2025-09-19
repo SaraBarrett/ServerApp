@@ -25,10 +25,29 @@
     }else{
         echo '<h6>Parabéns, passaste com a nota '.$grade.'</h6>';
     }
+
+    while($count <10){
+        echo '<p>O número é '.$count .'</p><hr>';
+
+        if($count == 4){
+            break;
+        } 
+
+        $count+=1;  
+    };
     ?>
 
-    <h6><?= $names[0] ?></h6>
-    
+   
+    <h6>o nome é <?= $names[0] ?></h6>
+    <h5>Todos os alunos da turma:</h5>
+    <ul>
+    <?php
+        foreach($names as $name){
+            echo '<li>'.$name.'</li>' ;
+        }
+
+    ?>
+    </ul>
     <h6><?= $product->name ?></h6>
 </body>
 </html>
