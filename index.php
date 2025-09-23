@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
 
     <?php
       include('php/phpCode.php')
@@ -20,6 +21,7 @@
     <ul>
       <li><a href="pages/presentation.php">Página de Apresentação</a></li>
         <li><a href="pages/test_form.php">Página de Formulário</a></li>
+        <li><a href="pages/courses.php">Página de Cursos do Cesae</a></li>
     </ul>
 
 

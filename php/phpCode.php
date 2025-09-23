@@ -4,7 +4,7 @@
     $grade = 9;
 
     //declarar array
-    $names = ['Soraia', 'Paulo', 'Mara', 'Catarina'];
+   $names = ['Soraia', 'Paulo', 'Mara', 'Catarina']; 
     
     $count = 1;
 
