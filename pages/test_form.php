@@ -19,6 +19,7 @@
         <input type="text" placeholder="Indique o nome do responsável" name="responsible" required> <br>
               <label for="">Cidade:</label>
         <input type="text" placeholder="Indique a cidade" name="city" required> <br>
+        <input type="file">
         <button type="submit">Guardar</button>
     </form>
 </body>
