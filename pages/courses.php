@@ -16,7 +16,6 @@
 
     <p>Descrição: cursos do cesae em vigor</p>
     <p><?=$hello?></p>
-
     <ul>
     <?php foreach($cesaeData['data'] as $item){ ?>
         <li><?=$item['course']?>,   <?=$item['year']?> em <?=$item['city']?></li>

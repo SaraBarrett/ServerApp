@@ -8,7 +8,7 @@
 </head>
 <body>
     <h5>Olá, aqui tens um formulário</h5>
-    <form action="../php/processCoursesFormData.php">
+    <form action="../php/processCoursesFormData.php" method="POST">
         <label for="">Nome do Curso:</label>
         <input type="text" placeholder="Insira o nome do Curso" name="course" required> <br>
         <label for="">Ano do Curso:</label>

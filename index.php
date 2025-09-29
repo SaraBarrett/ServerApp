@@ -22,6 +22,8 @@
       <li><a href="pages/presentation.php">Página de Apresentação</a></li>
         <li><a href="pages/test_form.php">Página de Formulário</a></li>
         <li><a href="pages/courses.php">Página de Cursos do Cesae</a></li>
+         <li><a href="pages/superglobais_form.php">Formulário de SuperGlobais</a></li>
+
     </ul>
 
 
