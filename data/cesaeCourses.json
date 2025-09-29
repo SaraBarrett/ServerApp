@@ -31,22 +31,6 @@
             "nrOfStudents": 20,
             "responsible": "Bruno Santos",
             "city": "Porto"
-        },
-        {
-            "id": 5,
-            "course": "UI\/ UX Developer",
-            "year": 2024,
-            "nrOfStudents": 18,
-            "responsible": "Rui Diniz",
-            "city": "Leça da Palmeira"
-        },
-        {
-            "course": "Teste Curso",
-            "year": 2025,
-            "nrOfStudents": 15,
-            "responsible": "Mariana & Catarina",
-            "city": "São João da Madeira",
-            "id": 6
         }
     ]
 }

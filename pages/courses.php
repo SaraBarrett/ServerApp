@@ -19,7 +19,11 @@
     <ul>
     <?php foreach($cesaeData['data'] as $item){ ?>
         <li><?=$item['course']?>,   <?=$item['year']?> em <?=$item['city']?></li>
-
+        <form action="../php/updateAndDeleteCourses.php" method="POST">
+            <input type="hidden" name="action" value="delete">
+            <input type="hidden" name="id" value="<?=$item['id']?>">
+           <button type="submit">Apagar</button>
+    </form>
     <?php }?>
     </ul>
     
