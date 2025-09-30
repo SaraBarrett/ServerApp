@@ -2,10 +2,10 @@
     "data": [
         {
             "id": 1,
-            "course": "Técnico Múltimédia",
+            "course": "Técnico Múltimédia Teste Upd",
             "year": 2025,
             "nrOfStudents": 16,
-            "responsible": "Cristina Moura",
+            "responsible": "Cristina Moura testeupf",
             "city": "São João da Madeira"
         },
         {

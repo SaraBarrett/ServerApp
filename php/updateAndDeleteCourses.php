@@ -65,4 +65,48 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["action"] =='delete') {
     //reencaminha para o ficheiro onde temos a lista de cursos
     header('Location: ../pages/courses.php?msg=deleted');
     exit;
+}elseif($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["action"] =='update'){
+ 
+   // Lê ficheiro
+    $json = file_get_contents(CESAE_JSON);
+    $data = json_decode($json, true);
+  
+    // Verifica se o ficheiro é válido
+    if (!isset($data['data'])) {
+        die("JSON inválido");
+    }
+
+    // faz update 
+    $id     = (int)$_POST['id'];
+    $course = trim($_POST['course']);
+    $nrOfStudents = (int)$_POST['nrOfStudents'];
+    $responsible = trim($_POST['responsible']);
+    $city = trim($_POST['city']);
+    $year   = (int)$_POST['year'];
+
+   $found = false;
+
+    // iterar por referência para alterar o array original
+    foreach ($data['data'] as &$item) {
+        if ((int)$item['id'] === (int)$id) {
+            $item['course'] = $course;
+            $item['nrOfStudents'] = $nrOfStudents;
+            $item['responsible'] = $responsible;
+            $item['city'] = $city;
+            $item['year']   = (int)$year;
+            $found = true;
+            break;
+        }
+    }
+    unset($item); // importante depois de usar referência
+
+    if ($found) {
+        file_put_contents(CESAE_JSON, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+        header('Location: ../pages/courses.php?msg=update');
+        exit;
+    };
+  
+    if (!$curso) {
+        die("Curso não encontrado");
+    }
 }
