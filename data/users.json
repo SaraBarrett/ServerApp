@@ -1,0 +1,11 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Sara",
+      "email": "Sara@gmail.com",
+      "password": "123334",
+      "type": "admin"
+    }
+  ]
+}
